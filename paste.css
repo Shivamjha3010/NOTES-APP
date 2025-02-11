@@ -1,0 +1,115 @@
+/* Container for search and pastes */
+.paste-div {
+    width: 100%;
+    max-width: 600px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    margin: 20px auto;
+    display: block;
+}
+
+.paste-div:focus {
+    border-color: #aaa;
+}
+
+/* Paste Box (Wrapper for all pastes) */
+.paste-box {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual Paste Item */
+.border {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.border:hover {
+    transform: scale(1.02);
+}
+
+/* Paste Title & Content */
+.border > div:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.border > div:nth-child(2) {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button Container */
+.border > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* General Button Styling */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Button Colors */
+.edit-btn {
+    background: #3EDEAB;
+    background: linear-gradient(135deg, #3EDEAB, #E1B2BC);
+    color: black;
+}
+
+.view-btn {
+    background: #13EADD;
+    background: linear-gradient(135deg, #13EADD, #7F28D2);
+    color: white;
+}
+
+.copy-btn {
+   
+    background: #B7F8B3;
+    background: linear-gradient(135deg, #B7F8B3, #C379ED);
+    color: white;
+}
+
+.delete-btn {
+    background-color: #d9534f; /* Red */
+    color: white;
+}
+
+/* Button Hover Effects */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Created Date Styling */
+.border > div:last-child {
+    font-size: 14px;
+    color: #777;
+}

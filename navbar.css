@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centers the buttons horizontally */
+    height: 10vh; /* Makes sure it takes the full height of the viewport */
+    text-align: center;
+    background-color:#162341;
+    
+}
+.home{
+    display: flex;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    gap: 50px;
+}
+.home:active{
+    transform: scale(0.98);
+}
+.home a {
+    text-decoration:dotted;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background-color: #162341;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.homee {
+    margin-top: 0;
+    padding-top: 0;
+}

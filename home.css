@@ -1,0 +1,56 @@
+
+.homee{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Adjust width as needed */
+    margin: 20px auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border */
+}
+.input{
+    flex: 1; /* Takes up full width except button */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+}
+.done{
+    padding: 10px 15px;
+    font-size: 15px;
+    font-family: 'Inter', 'Arial', 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: white;
+    background-color: rgb(61, 61, 208); /* Bootstrap primary blue */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    margin-left: 10px; /* Space between input and button */
+}
+.text-done{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 600px; /* Adjust width as needed */
+    margin: 20px auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #ddd; /* Light border */  
+}
+body {
+    background: linear-gradient(270deg, #ebc2d39d, #c56f7d, #b08597);
+    background-size: 400% 400%;
+    animation: gradientAnimation 6s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
